@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    border: 0;
+    background-color: black;
+    color: rgb(246, 232, 206);
+}
+
+
+h1 {
+    font-size: 50px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 25px;
+    background-color: #081b31;
+}
+
+
+/* choices */
+.choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+    gap: 100px;
+}
+
+/* img:hover {
+    height: 200px;
+    width: 200px;
+} */
+.choice:hover,
+img:hover {
+    /* background-color: rgb(232, 225, 211); */
+    height: 200px;
+    width: 200px;
+}
+
+
+
+/* score-board */
+.score-board {
+    padding: 5px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    font-size: 30px;
+}
+
+#user-score,
+#comp-score {
+    font-size: 60px
+}
+
+
+/* msg container  */
+.msg-container {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+#msg {
+    background-color: #081b31;
+    color: #fff;
+    font-size: 1.5rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#reset {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+button {
+    display: inline;
+    background-color: #081b31;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    padding: .8rem;
+}
+
+
+
+/* Default styles */
+
+/* Add styles here for default layout */
+
+/* Media queries for responsiveness */
+
+/* For screens smaller than 768px */
+/* @media screen and (max-width: 40em) {
+    .choices {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .choice {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 48em) {
+    .choices {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .choice {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 64em) {
+    .choices {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .choice {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 80em) {
+    .choices {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .choice {
+        margin-bottom: 10px;
+    }
+} */
+/* For screens smaller than 576px */
+/* @media screen and (max-width: 576px) {
+    .score-board {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .score {
+        margin-bottom: 10px;
+    }
+} */
+
+
+
+/* Default styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Media queries for responsiveness */
+
+/* For screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    .choices {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .choice {
+        margin: 10px 0;
+    }
+
+
+}
+
+/* For screens smaller than 576px */
+@media screen and (max-width: 576px) {
+    .choice img {
+        width: 100px; /* Adjust image size for smaller screens */
+    }
+}
